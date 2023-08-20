@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  min-height: 85vh;
+}
+
+.register-page{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-page{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1rem;
+  box-shadow: 1px 2px 3px gray;
+
+}
+
+/* ant design  */
+
+.list-chart{
+  font-size: 25px;
+}
+
+.switch-icons{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: rgb(160, 151, 151);
+}
